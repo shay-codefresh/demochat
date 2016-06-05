@@ -1,6 +1,7 @@
 describe('CfHpeMocha', function () {
 
     it('Should report test result passed #1', function () {
+        console.log('added by GAl');
     });
 
     it('Should report test result passed #2', function () {
