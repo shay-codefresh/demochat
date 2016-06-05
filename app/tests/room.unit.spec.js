@@ -1,26 +1,26 @@
 describe('CfHpeMocha', function () {
 
-    it('Should report test result passed #1', function () {
+    it('Should report test result fail #1', function () {
         throw new Error("failed");
     });
 
-    it('Should report test result passed #2', function () {
+    it('Should report test result fail #2', function () {
         throw new Error("failed");
     });
 
-    it('Should report test result failed #3', function () {
+    it('Should report test result fail #3', function () {
         throw new Error("failed");
     });
 
-    it('Should report test result failed #4', function () {
+    it('Should report test result fail #4', function () {
         throw new Error("failed");
     });
 
-    it('Should report test result passed #5', function () {
+    it('Should report test result fail #5', function () {
         throw new Error("failed");
     });
 
-    it('Should report test result passed #6', function () {
+    it('Should report test result fail #6', function () {
         throw new Error("failed");
     });
 
