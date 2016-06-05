@@ -9,7 +9,7 @@
     "stop": "pkill --signal SIGINT letschat",
     "prestart": "migroose",
     "migrate": "migroose",
-    "test": "mocha ./app/tests"
+    "test": "mocha --reporter json-stream ./app/tests/room.unit.spec.js"
   },
   "engine": {
     "node": "0.10.x",
