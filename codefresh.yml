@@ -10,7 +10,6 @@ steps:
   unit-tests:
       image: ${{build-step}}
       fail-fast: false
-      working-directory : ${{initial-clone}}
       commands:
         - npm test
         - echo $(date)
